@@ -5,8 +5,6 @@ fetch('https://swapi.co/api/films/').then(function(response) {
 
   response.json().then(function(json) {
     // write this function
-    const html = ''
-
-    document.getElementById('body').innerHTML = html
+    console.log(json)
   })
 })
